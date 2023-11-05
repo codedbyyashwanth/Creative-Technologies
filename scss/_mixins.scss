@@ -1,0 +1,13 @@
+@mixin primary_text {
+      font-size: 5rem;
+      color: $dark-color;
+      font-weight: 600;
+}
+
+@mixin sectionPadding {
+      padding: 5rem 20px;
+
+      @media (max-width:700px) {
+            padding: 3rem 10px;
+      }
+}
