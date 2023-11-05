@@ -16,6 +16,9 @@
       <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script src="../src/scripts/scripts.js" defer></script>
 
+      <!-- AOS -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />      
+
       <style>
             .swiper {
                   width: 100%;
@@ -67,7 +70,7 @@
                         </nav>
 
                         <div class="hero_header">
-                              <div class="hero_header_container">
+                              <div class="hero_header_container"  data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in">
                                     <h1 class="head_text">Portfolio</h1>
                                     <p>
                                           A portfolio of digital services is a comprehensive collection of offerings designed to meet the diverse needs of businesses and individuals in the digital age.
@@ -80,7 +83,7 @@
       <main>
             <section class="blog_section">
                   <div class="container">
-                        <div class="section_heading">
+                        <div class="section_heading"  data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in">
                               <h4 class="special_heading">Projects</h4>
                               <h1>what we have done so far</h1>
                               <p>
@@ -89,7 +92,7 @@
                         </div>
 
                         <div class="blog_container">
-                              <div class="items">
+                              <div class="items"  data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in">
                                     <div class="img_container">
                                           <img src="../src/img/blog/img-1.png" alt="">
                                     </div>
@@ -102,7 +105,7 @@
                                     </div>
                               </div>
 
-                              <div class="items">
+                              <div class="items"  data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in">
                                     <div class="img_container">
                                           <img src="../src/img/blog/img-2.png" alt="">
                                     </div>
@@ -115,7 +118,7 @@
                                     </div>
                               </div>
 
-                              <div class="items">
+                              <div class="items"  data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in">
                                     <div class="img_container">
                                           <img src="../src/img/blog/img-1.png" alt="">
                                     </div>
@@ -128,7 +131,7 @@
                                     </div>
                               </div>
 
-                              <div class="items">
+                              <div class="items"  data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in">
                                     <div class="img_container">
                                           <img src="../src/img/blog/img-2.png" alt="">
                                     </div>
@@ -146,14 +149,14 @@
 
             <section class="review_section">
                   <div class="container">
-                        <div class="section_heading">
+                        <div class="section_heading"  data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in">
                               <h4 class="special_heading" style="color: #fff;">Testimonials</h4>
                               <h1 style="color: #fff;">Our Clients say about us</h1>
                               <p style="color: #fff;">
                                     Empower your business website with extraordinary capabilities with our service.
                               </p>
                         </div>
-                        <div class="swiper mySwiper">
+                        <div class="swiper mySwiper"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in">
                               <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                           <div class="review_card">
@@ -332,18 +335,18 @@
 
             <section class="about_section_4">
                   <div class="container">
-                        <div class="section_heading">
+                        <div class="section_heading"  data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in">
                               <h1>Empowering businesses & Startups</h1>
                               <p>
                                     We understand the challenges that come with managing an enterprise in the digital age, and we are dedicated to delivering innovative and reliable IT services.
                               </p>
                         </div>
 
-                        <div class="img_container">
+                        <div class="img_container"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in">
                               <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
                         </div>
 
-                        <div class="counter_content">
+                        <div class="counter_content"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in">
                               <div class="items">
                                     <div class="icon_container">
                                           <ion-icon name="person"></ion-icon>
@@ -378,7 +381,7 @@
 
             <section class="contact_section">
                   <div class="container">
-                        <div class="text_container">
+                        <div class="text_container"  data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in">
                               <h1>Leave us a Message</h1>
                               <p>
                                     Want to get in touch? We'd love to hear from you. Here's how you can reach us. Fill out this form to take ownership of your business growth and start seeing results
@@ -406,7 +409,7 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="form_container">
+                        <div class="form_container"  data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in">
                               <form action="#">
                                     <h3>Get in Touch</h3>
                                     <p>Our friendly team would love to hear from you.</p>
@@ -445,4 +448,8 @@
             </div>
       </footer>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+      AOS.init();
+</script>
 </html>

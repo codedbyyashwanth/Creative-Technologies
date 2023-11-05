@@ -16,6 +16,9 @@
       <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script src="../src/scripts/scripts.js" defer></script>
 
+      <!-- AOS -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />      
+
       <style>
             .swiper {
                   width: 100%;
@@ -67,7 +70,7 @@
                         </nav>
 
                         <div class="hero_header">
-                              <div class="hero_header_container">
+                              <div class="hero_header_container"  data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in">
                                     <h1 class="head_text">Services</h1>
                                     <p>
                                           Whether it's creating a stunning website, implementing an e-commerce platform, or devising a robust digital marketing strategy, digital service providers play a pivotal role in shaping the online landscape. 
@@ -80,7 +83,7 @@
       <main>
             <section class="features_section">
                   <div class="container">
-                        <div class="section_heading">
+                        <div class="section_heading"  data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in">
                               <h4 class="special_heading">Services</h4>
                               <h1>What we offer</h1>
                               <p>
@@ -88,7 +91,7 @@
                               </p>
                         </div>
 
-                        <div class="feature_container services_page">
+                        <div class="feature_container services_page"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in">
                               <div class="items">
                                     <div class="img_container">
                                           <img src="../src/img/social/img-1.png" alt="">
@@ -131,7 +134,7 @@
 
             <section class="tech_section">
                   <div class="container">
-                        <div class="section_heading">
+                        <div class="section_heading"  data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in">
                               <h4 class="special_heading">skills</h4>
                               <h1>Technologies Used</h1>
                               <p>
@@ -139,7 +142,7 @@
                               </p>
                         </div>
 
-                        <div class="tech_container">
+                        <div class="tech_container"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in">
                               <div class="tech_content">
                                     <div class="items">
                                           <img src="../src/img/tech/img-1.png" alt="">
@@ -237,7 +240,7 @@
 
             <section class="pricing_section">
                   <div class="container">
-                        <div class="section_heading">
+                        <div class="section_heading"  data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in">
                               <h4 class="special_heading">Pricing</h4>
                               <h1>Perfect plans for your needs</h1>
                               <p>
@@ -245,7 +248,7 @@
                               </p>
                         </div>
 
-                        <div class="pricing_container">
+                        <div class="pricing_container"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in">
                               <div class="items">
                                     <div class="item_container">
                                           <h3>Basic plan</h3>
@@ -339,14 +342,14 @@
 
             <section class="review_section">
                   <div class="container">
-                        <div class="section_heading">
+                        <div class="section_heading"  data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in">
                               <h4 class="special_heading" style="color: #fff;">Testimonials</h4>
                               <h1 style="color: #fff;">Our Clients say about us</h1>
                               <p style="color: #fff;">
                                     Empower your business website with extraordinary capabilities with our service.
                               </p>
                         </div>
-                        <div class="swiper mySwiper">
+                        <div class="swiper mySwiper"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in">
                               <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                           <div class="review_card">
@@ -524,7 +527,7 @@
             </section>
 
             <section class="newsletter_section">
-                  <div class="container">
+                  <div class="container"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in">
                         <div class="section_heading">
                               <h1>Join our Newsletter</h1>
                               <p>
@@ -553,4 +556,8 @@
             </div>
       </footer>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+      AOS.init();
+</script>
 </html>
